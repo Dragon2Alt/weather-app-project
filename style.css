@@ -37,7 +37,7 @@ body {
   cursor: pointer;
   background: transparent;
   background-size: 20px 20px;
-  background-image: url('search logo.jpg');
+  background-image: url('logo/search logo.jpg');
   filter: invert(1);
 }
 
