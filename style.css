@@ -178,22 +178,29 @@ body {
   margin: 10px 10px 10px 10px;
 }
 
-.sunset{
-  font-size: 15pt;
-display: flex;
-width: 125px;
-border-radius: 10px;
-background: #38363D6B;
-margin: 0 0 0 0;
+.conta{
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  max-width: 360px;
+  margin: 10px auto;
+  gap: 10px;
 }
-.sundown{
+
+.sunset, .sunrise {
+  flex: 1;
   font-size: 15pt;
-display: flex;
-width: 125px;
-border-radius: 10px;
-background: #38363D6B;
-margin: -20px 0 -20px 0;
+  height: 125px;
+  border-radius: 10px;
+  background: #38363D6B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 10px;
 }
+
+
 
 footer {
     background-color: #333;
