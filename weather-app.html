@@ -1,6 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    hello
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+  <!--CHANGE BACKGROUND COLOR AND TEXT-->
+  <div class="container">
+    <button class="green btn"></button>
+    <button class="red btn"></button>
+    <button class="blue btn"></button>
+    <button class="black btn"></button>
+    <div id="myLinks">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+  </div>
+  
+  <!-- SEARCH BAR AND MENU BAR-->
+  <hr><hr>
+  <div class="search">
+<div class="menu">
+<button class="menu_btn" onclick="myFunction()">&#9776;
+</button></div>
+  <p align="center"><input type="text" name="search" id="search" placeholder="Search" /><button id="search_btn"></button></p>
+  </div>
+  <hr><hr>
+ 
+  <!-- LOCATION -->
+  <div class="Location">
+    <p class="title">Manila</p>
+  </div>
+  
+  <!-- DATE AND TIME -->
+  <div class="date">
+    <div id="month">April</div>
+    <span id="day">19</span>
+    <span id="year">2025</span>
+    <div class="time">11:12</div>
+    </div>
+  </div>
+  
+  
+  <!--WEATHER SECTION-->
+  <div class="weather">
+  <img src="clouds.png">
+  <p id="type">Cloudy 
+  <span id="degree">30°</span></p>
+  </div>
+  
+  <!--HUMIDITY SECTION-->
+<div class="hum">
+ <div class="humidity">
+   <img src="waterdrop.png">
+  55%</div>
+ <p>humidity</p>
+    </div>
+    
+  <!--TEMPERATURE SECTION-->
+<div class="tem">
+ <div class="wind">
+  <img src="wind.png">
+  55%
+  </div>
+ <p>Wind_Speed</p>
+    </div>
+  <!-- SUNSET AND SUNRISE DISPLAY-->
+    <div class="sunset">Sunset</div>
+    <div class="sundown">Sunrise</div>
+    
+    <!--FOOTER SECTION-->
+    <footer>
+  <div class="footer-content">
+    <p>&copy; 2025 Weather App. All rights reserved. </p>
+  </div>
+</footer>
+
+  <script src="main.js"></script>
+</body>
 </html>
