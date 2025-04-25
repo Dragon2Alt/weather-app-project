@@ -1,0 +1,207 @@
+/*CHANGE BACKGROUND COLOR AND TEXT*/
+body {
+    font-size: 15pt;
+    color: #00000000;
+    font-family:  monospace;
+    margin: 0;
+}
+.container{
+  display: flex;
+  
+  border-radius: 10px;
+}
+#myLinks{
+  background: grey;
+  font-size: 15pt;
+  width: 220px;
+}
+
+.btn{
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 50%;
+  background-size: 25px 25px;
+}
+/*BUTTON OF SEARCH BAR*/
+#search_btn{
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  background-size: 20px 20px;
+  background-image: url('search logo.jpg');
+  filter: invert(1);
+}
+
+.green {
+  background-image: url(Wallpaper/NightSky.jpg);
+}
+
+.red {
+  background-image: url(Wallpaper/bluesky.jpg);
+  
+}
+
+.blue {
+  background-image: url(Wallpaper/orangesky.jpg);
+}
+
+.black {
+  background-color: #000000;
+}
+
+body {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+}
+/*INPUT OF SEARCH BAR*/
+.search input{
+  width: 100%;
+  padding: 10px 40px 15px 20px;
+  font-size: 20px;
+  color: white;
+  border-radius: 25px;
+  background: #38363D6B;
+  border: none;
+  outline: none;
+}
+/*BACKGROUND OF SEARCH BAR*/
+.search{
+  position: relative;
+  margin: auto;
+  width: 200px;
+}
+.menu_btn{
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background: #38363D6B;
+  left: 0;
+  font-size: 20px;
+  position: fixed;
+  height: 45px;
+  width: 40px;
+}
+/*LOCATION OF THE PLACE*/
+.Location{
+  background: #38363D6B;
+  text-align: center;
+}
+.title{
+  border-bottom: solid white;
+}
+
+/* DATE AND TIME*/
+.date{
+  font-size: 12pt;
+  display: flex;
+  gap: 10px;
+  width: 125px;
+  border-radius: 10px;
+  background:  #38363D6B;
+  align-items: center;
+  margin: 5px;
+}
+.time{
+  margin-left: 55px;
+  background:  #38363D6B;
+  font-size: 40pt;
+  border-radius: 10px;
+}
+.weather{
+  border-radius: 10px;
+  background:  #38363D6B;
+  margin: 5px 5px 10px 5px;
+}
+.weather img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  
+}
+.weather p{
+  font-weight: bold;
+  font-size: 12pt;
+  margin: -10px 30px;
+}
+
+.humidity{
+  font-size: 12pt;
+  display: flex ;
+  gap: 20px;
+  width: 125px;
+  border-radius: 10px;
+  background:  #38363D6B;
+  align-items: center;
+  margin: -130px 200px 110px 200px;
+}
+.wind{
+  font-size: 12pt;
+  display: flex ;
+  gap: 20px;
+  width: 125px;
+  border-radius: 10px;
+  background:  #38363D6B;
+  align-items: center;
+  margin: -90px 200px 60px 200px;
+}
+.hum p{
+  margin: -125px 260px 100px 260px;
+  font-size: 10px;
+}
+.tem p{
+  margin: -75px 255px 50px 255px;
+  font-size: 10px;
+}
+.humidity img{
+  filter: invert(1);
+  display: block;
+  width: 30px;
+  height: 25px;
+  margin: 10px 10px 10px 10px;
+}
+.wind img{
+  filter: invert(1);
+  display: block;
+  width: 30px;
+  height: 25px;
+  margin: 10px 10px 10px 10px;
+}
+
+.sunset{
+  font-size: 15pt;
+display: flex;
+width: 125px;
+border-radius: 10px;
+background: #38363D6B;
+margin: 0 0 0 0;
+}
+.sundown{
+  font-size: 15pt;
+display: flex;
+width: 125px;
+border-radius: 10px;
+background: #38363D6B;
+margin: -20px 0 -20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 10pt;
+  }
